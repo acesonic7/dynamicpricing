@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pricingfunction import calculate_final_price  # Import the calculation function
+from pricingfunction import calculate_dynamic_price  # Import the calculation function
 
 app = FastAPI()
 
